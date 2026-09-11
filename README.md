@@ -15,9 +15,9 @@ BesaGuard is a compact native Windows security workbench from promptedteam. The 
 
 ## Download
 
-Download **BesaGuard-0.8.3-win-x64.zip** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, extract the complete folder, and double-click `BesaGuard.exe`.
+Download **BesaGuard-Setup-0.8.4-win-x64.exe** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, and run the installation wizard.
 
-The beta is a framework-dependent portable Windows x64 build and requires the .NET 10 Desktop Runtime. It does not install a driver or Windows service. Keep every extracted file together.
+The wizard installs BesaGuard for the current Windows user, creates a Start Menu shortcut, offers an optional desktop shortcut, and provides normal uninstall support. If the .NET 10 Desktop Runtime is missing, Setup offers to download the official Microsoft runtime. It does not install a driver or Windows service.
 
 ## Screenshots
 
@@ -25,23 +25,28 @@ The beta is a framework-dependent portable Windows x64 build and requires the .N
 
 ![BesaGuard security overview](docs/images/security-overview.png)
 
-### Live scan
+### Threat scan
 
-![BesaGuard live scan](docs/images/live-scan.png)
+![BesaGuard threat scan](docs/images/threat-scan.png)
 
-### Custom scan selection
+### Findings
 
-![BesaGuard custom scan selection](docs/images/custom-scan.png)
+![BesaGuard findings](docs/images/findings.png)
+
+### Updates and installed version
+
+![BesaGuard updates](docs/images/updates.png)
 
 ## What works in this beta
 
-- Native Windows desktop UI with custom icon, compact layouts, tray controls, contextual right-click actions, and reboot-safe build reminder.
+- Native Windows desktop UI with custom icon, compact layouts, tray controls, and contextual right-click actions.
 - High-risk, fixed-drive, custom-folder, and single-file scans through the bundled Rust host.
 - A verified 10-rule BesaGuard advisory catalog combined with bounded PE, script/command, shortcut, and ZIP metadata analysis.
 - Persistent findings and explicit incomplete-coverage reporting.
 - Bounded file-change, process/network, Windows event, session, and performance observations while the app runs.
 - User-requested AES-256-GCM encrypted holding copies; originals are retained, so this is not production quarantine.
-- Live in-app beta checks, SHA-256-verified portable downloads, and an explicit Open Downloads action. Packages are never silently executed.
+- Automatic startup checks against the public beta manifest, a toolbar download indicator shown only for a newer build, SHA-256-verified installer downloads, and an explicit Open Downloads action. Installers are never silently executed.
+- Installed build version shown in the app footer and Updates page.
 - Optional current-user Windows startup, minimized to the tray, so bounded app-lifetime observations can begin after sign-in without installing a service.
 - Bounded tray notifications for newly observed medium-or-higher scanner findings; clicking a notification opens Findings, and no automatic response is implied.
 
@@ -49,7 +54,7 @@ The package does **not** claim cloud reputation, kernel/minifilter interception,
 
 ## Privacy
 
-BesaGuard's beta workflows are local. Findings and encrypted holding data are stored under the current user's `%LocalAppData%\BesaGuard` directory. The app contacts GitHub only when the user presses the update button. See [PRIVACY.md](PRIVACY.md).
+BesaGuard's beta workflows are local. Findings and encrypted holding data are stored under the current user's `%LocalAppData%\BesaGuard` directory. The app contacts GitHub once after startup to check the beta manifest and again only when the user requests a download. See [PRIVACY.md](PRIVACY.md).
 
 ## Distribution and source
 

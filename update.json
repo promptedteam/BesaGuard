@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.3",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.3/BesaGuard-0.8.3-win-x64.zip",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.3",
-  "sha256": "100da0895a2ddea85739890f9f4727423a3b46204f643cd4974c8e059e3d8b78",
-  "bytes": 10519461,
-  "releaseNotes": "Completes the explicit Check, Download, and Open Downloads workflow without ever executing the downloaded package."
+  "latestVersion": "0.8.4",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.4/BesaGuard-Setup-0.8.4-win-x64.exe",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.4",
+  "sha256": "332d9724ef61d4eb0db713ba120f257a5c535ed858e2567eec4efc4cc8020dff",
+  "bytes": 9207977,
+  "releaseNotes": "Adds the Windows installation wizard, removes the developer reminder, shows build 0.8.4 in-app, and reveals the toolbar download icon only for a newer verified beta."
 }
