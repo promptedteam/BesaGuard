@@ -1,0 +1,6 @@
+*.exe
+*.dll
+*.zip
+*.partial
+SHA256SUMS.txt
+
