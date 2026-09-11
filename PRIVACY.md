@@ -4,4 +4,4 @@ BesaGuard performs its current scanning and observation workflows locally on the
 
 The application contacts the public `promptedteam/BesaGuard` GitHub repository only after the user presses **Check now** or **Download update** on the Updates page. That request is subject to GitHub's own privacy terms and normal network logging. BesaGuard does not upload scanned files, findings, file paths, or holding-vault contents through its update channel.
 
-This statement applies to the 0.8.1 personal-core beta and may be revised if future features change its data flows.
+This statement applies to the 0.8.2 personal-core beta and may be revised if future features change its data flows.

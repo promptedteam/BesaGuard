@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.1",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.1/BesaGuard-0.8.1-win-x64.zip",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.1",
-  "sha256": "e407af9550a3d43f0cf1dd1216b47484435ba8e676949554b1560ad44c672d6e",
-  "bytes": 10517043,
-  "releaseNotes": "Makes Updates and Settings available in the live app and adds reversible minimized startup for bounded app-lifetime protection."
+  "latestVersion": "0.8.2",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.2/BesaGuard-0.8.2-win-x64.zip",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.2",
+  "sha256": "bf64f5d223782eea9444c2d8eca9d2e5902c4e2e78d003827cbd05335d667240",
+  "bytes": 10519113,
+  "releaseNotes": "Adds bounded tray notifications for newly observed medium-or-higher scanner findings while preserving advisory-only response policy."
 }
