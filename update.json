@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.0",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.0/BesaGuard-0.8.0-win-x64.zip",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.0",
-  "sha256": "5077a026129495413092a95e7eef0947728a00a4fa3645e97d4f3c5b70e58482",
-  "bytes": 10515801,
-  "releaseNotes": "First public binary beta; real personal-core scanning plus manual SHA-256-verified in-app update downloads."
+  "latestVersion": "0.8.1",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.1/BesaGuard-0.8.1-win-x64.zip",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.1",
+  "sha256": "e407af9550a3d43f0cf1dd1216b47484435ba8e676949554b1560ad44c672d6e",
+  "bytes": 10517043,
+  "releaseNotes": "Makes Updates and Settings available in the live app and adds reversible minimized startup for bounded app-lifetime protection."
 }

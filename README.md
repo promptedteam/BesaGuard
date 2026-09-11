@@ -15,7 +15,7 @@ BesaGuard is a compact native Windows security workbench from promptedteam. The 
 
 ## Download
 
-Download **BesaGuard-0.8.0-win-x64.zip** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, extract the complete folder, and double-click `BesaGuard.exe`.
+Download **BesaGuard-0.8.1-win-x64.zip** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, extract the complete folder, and double-click `BesaGuard.exe`.
 
 The beta is a framework-dependent portable Windows x64 build and requires the .NET 10 Desktop Runtime. It does not install a driver or Windows service. Keep every extracted file together.
 
@@ -41,7 +41,8 @@ The beta is a framework-dependent portable Windows x64 build and requires the .N
 - Persistent findings and explicit incomplete-coverage reporting.
 - Bounded file-change, process/network, Windows event, session, and performance observations while the app runs.
 - User-requested AES-256-GCM encrypted holding copies; originals are retained, so this is not production quarantine.
-- In-app beta checks and SHA-256-verified portable downloads from this repository. Downloads are never silently executed.
+- Live in-app beta checks and SHA-256-verified portable downloads from this repository. Downloads are never silently executed.
+- Optional current-user Windows startup, minimized to the tray, so bounded app-lifetime observations can begin after sign-in without installing a service.
 
 The package does **not** claim cloud reputation, kernel/minifilter interception, boot or full memory scanning, exploit prevention, automatic remediation, packet capture, privileged isolation, or commercial malware-intelligence coverage.
 
