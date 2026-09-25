@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.5",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.5/BesaGuard-0.8.5-win-x64.zip",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.5",
-  "sha256": "8e587961d4abfde9b6b500a08895ca8cbfd70fdbc07255baf8c54d6c5f296aaa",
-  "bytes": 8708237,
-  "releaseNotes": "Adds bounded PE import-capability detection for process injection, process hollowing, and process-memory dumping while retaining the 0.8.4 installer and verified GitHub update workflow."
+  "latestVersion": "0.8.6",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.6/BesaGuard-0.8.6-win-x64.zip",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.6",
+  "sha256": "691de166020669e72f556ad84644038f773c93c55a310a49a530193579f1c10f",
+  "bytes": 8712433,
+  "releaseNotes": "Adds bounded PDF active-content structural triage for JavaScript, automatic actions, external launch actions, embedded active-content chains, and rich-media metadata with explicit incomplete-coverage reporting."
 }
