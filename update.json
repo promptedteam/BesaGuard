@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.8",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.8/BesaGuard-Setup-0.8.8-win-x64.exe",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.8",
-  "sha256": "49b8f8d135cfe3709bff9dbf927da6669a2161f7819e8ab8826379b3215ea34f",
-  "bytes": 9215394,
-  "releaseNotes": "Fixes the blank Installed security components panel while retaining the repaired Windows update download and bounded Office/OOXML active-content metadata detection."
+  "latestVersion": "0.8.9",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.9/BesaGuard-Setup-0.8.9-win-x64.exe",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.9",
+  "sha256": "aa8f7ac8e9a7bc48bca30e9c40fa10e573216d0eaaa17208c606da2965de914a",
+  "bytes": 9218630,
+  "releaseNotes": "Adds bounded in-memory scanning of selected executable, script, shortcut, and PDF members inside ZIP archives while retaining the repaired Windows update download and live component inventory."
 }
