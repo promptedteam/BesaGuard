@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.4",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.4/BesaGuard-0.8.4-win-x64.zip",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.4",
-  "sha256": "632b8868c2f242a1c65e11fb600721279781da7543e844f0a0beb862d5e4a1da",
-  "bytes": 8705538,
-  "releaseNotes": "Adds the Windows installation wizard, removes the developer reminder, shows build 0.8.4 in-app, and reveals the toolbar download icon only for a newer verified beta."
+  "latestVersion": "0.8.5",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.5/BesaGuard-0.8.5-win-x64.zip",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.5",
+  "sha256": "8e587961d4abfde9b6b500a08895ca8cbfd70fdbc07255baf8c54d6c5f296aaa",
+  "bytes": 8708237,
+  "releaseNotes": "Adds bounded PE import-capability detection for process injection, process hollowing, and process-memory dumping while retaining the 0.8.4 installer and verified GitHub update workflow."
 }

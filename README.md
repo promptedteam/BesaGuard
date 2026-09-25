@@ -6,7 +6,7 @@
 
 [![Latest beta](https://img.shields.io/github/v/release/promptedteam/BesaGuard?display_name=tag&label=latest%20beta)](https://github.com/promptedteam/BesaGuard/releases/latest)
 [![Windows x64](https://img.shields.io/badge/Windows-x64-4b5563)](https://github.com/promptedteam/BesaGuard/releases/latest)
-[![Portable](https://img.shields.io/badge/package-portable-737b8c)](https://github.com/promptedteam/BesaGuard/releases/latest)
+[![Installer](https://img.shields.io/badge/package-installer-737b8c)](https://github.com/promptedteam/BesaGuard/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/promptedteam/BesaGuard?style=social)](https://github.com/promptedteam/BesaGuard/stargazers)
 
 BesaGuard is a compact native Windows security workbench from promptedteam. The current beta provides real local, on-demand advisory scanning, persistent findings, bounded continuous observation, network/session/performance visibility, and encrypted holding copies in a dark WPF interface.
@@ -15,7 +15,7 @@ BesaGuard is a compact native Windows security workbench from promptedteam. The 
 
 ## Download
 
-Download **BesaGuard-Setup-0.8.4-win-x64.exe** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, and run the installation wizard.
+Download **BesaGuard-Setup-0.8.5-win-x64.exe** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, and run the installation wizard.
 
 The wizard installs BesaGuard for the current Windows user, creates a Start Menu shortcut, offers an optional desktop shortcut, and provides normal uninstall support. If the .NET 10 Desktop Runtime is missing, Setup offers to download the official Microsoft runtime. It does not install a driver or Windows service.
 
@@ -41,7 +41,8 @@ The wizard installs BesaGuard for the current Windows user, creates a Start Menu
 
 - Native Windows desktop UI with custom icon, compact layouts, tray controls, and contextual right-click actions.
 - High-risk, fixed-drive, custom-folder, and single-file scans through the bundled Rust host.
-- A verified 10-rule BesaGuard advisory catalog combined with bounded PE, script/command, shortcut, and ZIP metadata analysis.
+- A verified 10-rule BesaGuard advisory catalog combined with bounded PE structure/import-capability, script/command, shortcut, and ZIP metadata analysis.
+- Advisory PE import correlations for complete process-injection, process-hollowing, and process-memory-dump primitive sets; partial API combinations remain silent.
 - Persistent findings and explicit incomplete-coverage reporting.
 - Bounded file-change, process/network, Windows event, session, and performance observations while the app runs.
 - User-requested AES-256-GCM encrypted holding copies; originals are retained, so this is not production quarantine.
