@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.6",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.6/BesaGuard-0.8.6-win-x64.zip",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.6",
-  "sha256": "691de166020669e72f556ad84644038f773c93c55a310a49a530193579f1c10f",
-  "bytes": 8712433,
-  "releaseNotes": "Adds bounded PDF active-content structural triage for JavaScript, automatic actions, external launch actions, embedded active-content chains, and rich-media metadata with explicit incomplete-coverage reporting."
+  "latestVersion": "0.8.7",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.7/BesaGuard-Setup-0.8.7-win-x64.exe",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.7",
+  "sha256": "71640aac1d78f8d4478276cc54f5250bc6ace08c0c7171cf4ff6eb679bf53936",
+  "bytes": 9216524,
+  "releaseNotes": "Fixes the Windows update-download file lock and adds bounded Office/OOXML metadata detection for VBA, hidden macro-extension mismatches, embedded active payloads, and ActiveX content."
 }
