@@ -4,7 +4,7 @@
   "latestVersion": "0.8.13",
   "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.13/BesaGuard-Setup-0.8.13-win-x64.exe",
   "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.13",
-  "sha256": "111eb3253f0ee5f5e7b4868301e06eeb4cd1f99ccf7bd10d707e9903183822ce",
-  "bytes": 9297201,
+  "sha256": "3dca4bf2010f0b2f87c9a461387617b2131e130c31cbf5d1703546cdddc4fc0d",
+  "bytes": 9296310,
   "releaseNotes": "Adds authenticated signed-v2 update metadata, bounded read-only process-memory inspection from Performance, and stronger exact-file-identity binding for encrypted evidence imports."
 }
