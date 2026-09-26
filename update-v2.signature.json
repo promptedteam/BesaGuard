@@ -2,6 +2,6 @@
   "schema": 1,
   "algorithm": "ecdsa-p256-sha256-p1363-low-s",
   "keyId": "besaguard-beta-update-2026-09-26",
-  "manifestSha256": "ac7c966511e1a2236143ddb6026de320c78a57e1a99c80879b04b0d9bf48cf47",
-  "signatureBase64": "RMxgAC68X+UFvi24HB8kT5B/j1YrdKUrEATTFuetUWtWvDsMo1RPBIbrd1MU/8tKsWJD0aO6WroxjsXrxq1Ruw=="
+  "manifestSha256": "d952a990d26c8f28da10c73ca28b3fb6f01b7285e4d7955a475a994f7dde9874",
+  "signatureBase64": "thyXR9bfV09toch/nXjQ1Yv2qSZOhvtfJNsopJlDps9tIpWdZdfEKgP6Z729jPxDXOEg0m0UhOb/TdEoUhcQwQ=="
 }

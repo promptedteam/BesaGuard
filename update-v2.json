@@ -2,11 +2,11 @@
   "schema": 2,
   "channel": "beta",
   "keyId": "besaguard-beta-update-2026-09-26",
-  "sequence": 1,
-  "latestVersion": "0.8.12",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.12/BesaGuard-Setup-0.8.12-win-x64.exe",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.12",
-  "sha256": "8b61bf8b1c71cdc4c9432df50f6430d8fe453206019244b9b4f913d400bc23c4",
-  "bytes": 9223805,
-  "releaseNotes": "Adds an explicit Install update action that reconfirms, rechecks installer size and SHA-256, launches the interactive Setup wizard, and closes BesaGuard; no background step silently executes updates."
+  "sequence": 2,
+  "latestVersion": "0.8.13",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.13/BesaGuard-Setup-0.8.13-win-x64.exe",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.13",
+  "sha256": "111eb3253f0ee5f5e7b4868301e06eeb4cd1f99ccf7bd10d707e9903183822ce",
+  "bytes": 9297201,
+  "releaseNotes": "Adds authenticated signed-v2 update metadata, bounded read-only process-memory inspection from Performance, and stronger exact-file-identity binding for encrypted evidence imports."
 }
