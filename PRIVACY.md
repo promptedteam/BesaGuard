@@ -9,4 +9,4 @@ its detached signature from the same repository. These additional metadata
 requests likewise contain no scanned content, findings, local paths, or vault
 data.
 
-This statement applies to the 0.8.12 personal-core beta and may be revised if future features change its data flows.
+This statement applies to the 0.8.13 personal-core beta and may be revised if future features change its data flows.
