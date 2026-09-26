@@ -15,7 +15,7 @@ BesaGuard is a compact native Windows security workbench from promptedteam. The 
 
 ## Download
 
-Download **BesaGuard-Setup-0.8.10-win-x64.exe** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, and run the installation wizard.
+Download **BesaGuard-Setup-0.8.11-win-x64.exe** from the [latest release](https://github.com/promptedteam/BesaGuard/releases/latest), verify its SHA-256 against `SHA256SUMS.txt`, and run the installation wizard.
 
 The wizard installs BesaGuard for the current Windows user, creates a Start Menu shortcut, offers an optional desktop shortcut, and provides normal uninstall support. If the .NET 10 Desktop Runtime is missing, Setup offers to download the official Microsoft runtime. It does not install a driver or Windows service.
 
@@ -49,7 +49,7 @@ The wizard installs BesaGuard for the current Windows user, creates a Start Menu
 - A Running apps scan that captures up to 256 accessible executable image files from active processes and scans them with the same bounded engine. Inaccessible, exited, and capped coverage is reported; this is not process-memory inspection.
 - Persistent findings and explicit incomplete-coverage reporting.
 - Bounded file-change, process/network, Windows event, session, and performance observations while the app runs.
-- User-requested AES-256-GCM encrypted holding copies; originals are retained, so this is not production quarantine.
+- User-requested AES-256-GCM encrypted holding copies. On Windows, each import holds one exact non-reparse source handle without write/delete sharing through hashing and encryption. Originals are retained, so this is not production quarantine.
 - Automatic startup checks against the public beta manifest, a toolbar download indicator shown only for a newer build, SHA-256-verified installer downloads, and an explicit Open Downloads action. Version 0.8.7 fixes the Windows verification-to-download file handoff; 0.8.8 restores the live installed-component inventory. Installers are never silently executed.
 - Installed build version shown in the app footer and Updates page.
 - Optional current-user Windows startup, minimized to the tray, so bounded app-lifetime observations can begin after sign-in without installing a service.

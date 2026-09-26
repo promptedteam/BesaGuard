@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.10",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.10/BesaGuard-Setup-0.8.10-win-x64.exe",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.10",
-  "sha256": "0461e0b837ed4cbc173bb142383d06b568fb533be06f06599e951af5f6a3f40b",
-  "bytes": 9222355,
-  "releaseNotes": "Adds a bounded Running apps scan for accessible executable images of active processes while retaining ZIP member scanning and the repaired Windows update workflow."
+  "latestVersion": "0.8.11",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.11/BesaGuard-Setup-0.8.11-win-x64.exe",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.11",
+  "sha256": "6f134fbafba02c93c035dd4fd0fb41d36e0c6bf1b806fd5d588248b042656494",
+  "bytes": 9221087,
+  "releaseNotes": "Hardens Windows encrypted-vault imports with one locked non-reparse source handle across both hashing passes and chunked encryption; source retention and production quarantine limits remain explicit."
 }
