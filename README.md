@@ -37,6 +37,13 @@ The wizard installs BesaGuard for the current Windows user, creates a Start Menu
 
 ![BesaGuard updates](docs/images/updates.png)
 
+The shipped 0.8.12 client continues to read the original compatibility
+manifest. A detached P-256 signed-v2 manifest is now published for the hardened
+update client in newer source. That client verifies the exact metadata before
+using its version, GitHub URLs, size, or SHA-256; the old feed is frozen at
+0.8.12 and cannot authorize a newer download in the hardened path. This
+metadata signature is separate from future Authenticode signing of binaries.
+
 ## What works in this beta
 
 - Native Windows desktop UI with custom icon, compact layouts, tray controls, and contextual right-click actions.
@@ -50,7 +57,7 @@ The wizard installs BesaGuard for the current Windows user, creates a Start Menu
 - Persistent findings and explicit incomplete-coverage reporting.
 - Bounded file-change, process/network, Windows event, session, and performance observations while the app runs.
 - User-requested AES-256-GCM encrypted holding copies. On Windows, each import holds one exact non-reparse source handle without write/delete sharing through hashing and encryption. Originals are retained, so this is not production quarantine.
-- Automatic startup checks against the public beta manifest, a toolbar download indicator shown only for a newer build, and SHA-256-verified installer downloads. After download, **Install update** asks for confirmation, rechecks the exact installer size and SHA-256, starts the interactive Setup wizard, and closes BesaGuard. Installers are never silently executed.
+- Automatic startup checks against the public beta manifest, a toolbar download indicator shown only for a newer build, and SHA-256-verified installer downloads. Newer source additionally requires the detached signed-v2 metadata before authorizing an update. After download, **Install update** asks for confirmation, rechecks the exact installer size and SHA-256, starts the interactive Setup wizard, and closes BesaGuard. Installers are never silently executed.
 - Installed build version shown in the app footer and Updates page.
 - Optional current-user Windows startup, minimized to the tray, so bounded app-lifetime observations can begin after sign-in without installing a service.
 - Bounded tray notifications for newly observed medium-or-higher scanner findings; clicking a notification opens Findings, and no automatic response is implied.
