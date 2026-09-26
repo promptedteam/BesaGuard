@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "latestVersion": "0.8.11",
-  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.11/BesaGuard-Setup-0.8.11-win-x64.exe",
-  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.11",
-  "sha256": "6f134fbafba02c93c035dd4fd0fb41d36e0c6bf1b806fd5d588248b042656494",
-  "bytes": 9221087,
-  "releaseNotes": "Hardens Windows encrypted-vault imports with one locked non-reparse source handle across both hashing passes and chunked encryption; source retention and production quarantine limits remain explicit."
+  "latestVersion": "0.8.12",
+  "packageUrl": "https://github.com/promptedteam/BesaGuard/releases/download/v0.8.12/BesaGuard-Setup-0.8.12-win-x64.exe",
+  "releasePageUrl": "https://github.com/promptedteam/BesaGuard/releases/tag/v0.8.12",
+  "sha256": "8b61bf8b1c71cdc4c9432df50f6430d8fe453206019244b9b4f913d400bc23c4",
+  "bytes": 9223805,
+  "releaseNotes": "Adds an explicit Install update action that reconfirms, rechecks installer size and SHA-256, launches the interactive Setup wizard, and closes BesaGuard; no background step silently executes updates."
 }
