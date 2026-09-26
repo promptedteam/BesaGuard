@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "algorithm": "ecdsa-p256-sha256-p1363-low-s",
+  "keyId": "besaguard-beta-update-2026-09-26",
+  "manifestSha256": "ac7c966511e1a2236143ddb6026de320c78a57e1a99c80879b04b0d9bf48cf47",
+  "signatureBase64": "RMxgAC68X+UFvi24HB8kT5B/j1YrdKUrEATTFuetUWtWvDsMo1RPBIbrd1MU/8tKsWJD0aO6WroxjsXrxq1Ruw=="
+}
